@@ -6,3 +6,21 @@
     margin: 0;
     padding: 0;
 }
+header{
+    color: #eb4ac0;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.flotantes{
+    float: left;
+}
+.w100{ width: 100%; }
+.w50{ width: 50%; }
+.w25{ width: 25%; }
+.bgRed{ background-color: red; }
+.bgBlue{ background-color: blue; }
+#soloColor{
+    background-color: #eb4ac0;
+}
