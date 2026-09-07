@@ -18,6 +18,7 @@ header{
 }
 .w100{ width: 100%; }
 .w50{ width: 50%; }
+.w33{ width: 33%; float: left; }
 .w25{ width: 25%; }
 .bgRed{ background-color: red; }
 .bgBlue{ background-color: blue; }
@@ -61,18 +62,33 @@ header{
     padding: 1rem;
     background: yellow;
     border: 2px solid #535e09;
+    float: left;
+    width: 95%;
 }
 .btnPromociones{
-    display: block;
-    width: 100%;
-    padding: 1rem;
+    padding: 12px;
     background-color: #d42caa;
     color: #fff;
     text-align: center;
     text-decoration: none;
+    float: left;
 }
 .seccionPromocial{
     margin: 1rem 0;
     border: 1px solid #767675;
     box-shadow: 0px 0px 5px #767675;
+}
+.cardContact{
+    padding: 1rem;
+    background-color: #309047;
+    border: 1px solid #023825;
+}
+.contenedorContacto{
+    float: left;
+    width: 70%;
+    padding: 1rem;
+    margin: 0 15%;
+    background-color: #c1c683;
+    box-shadow: 0px 0px 5px #767675;
+
 }
