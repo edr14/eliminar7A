@@ -16,13 +16,14 @@ header{
 .flotantes{
     float: left;
 }
-.w100{ width: 100%; }
-.w50{ width: 50%; }
+.w100{ width: 100%; float: left;}
+.w50{ width: 50%; float: left;}
 .w33{ width: 33%; float: left; }
-.w25{ width: 25%; }
+.w25{ width: 25%; float: left;}
 .bgRed{ background-color: red; }
 .bgBlue{ background-color: blue; }
 .bgGreen{ background-color: green; }
+.bgPink{ background-color: rgb(235, 202, 207); }
 #soloColor{
     background-color: #eb4ac0;
 }
